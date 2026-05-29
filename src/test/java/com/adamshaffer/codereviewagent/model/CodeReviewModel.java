@@ -14,6 +14,9 @@ import lombok.Data;
 @Table(name = "CodeReview")
 @Data
 public class CodeReviewModel {
+    public CodeReviewModel(String fileName, String language2, String codeReview, LocalDateTime now) {
+        //TODO Auto-generated constructor stub
+    }
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
